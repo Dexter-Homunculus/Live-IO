@@ -1,16 +1,24 @@
 {
   "name": "nodejs",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "This is an barebones node, express & socket sandbox project for use (principally) with REPLIT.",
+  "main": "/app/server/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Mike Watkins <purplehominid@gmail.com> (http://purplehominid.co.uk/)",
+  "license": "MIT",
   "dependencies": {
     "@types/node": "^18.0.6",
     "node-fetch": "^3.2.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dexter-Homunculus/Live-IO.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dexter-Homunculus/Live-IO/issues"
+  },
+  "homepage": "https://github.com/Dexter-Homunculus/Live-IO#readme"
 }
